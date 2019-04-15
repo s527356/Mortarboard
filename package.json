@@ -1,7 +1,7 @@
 {
-  "name": "node-express-chat",
+  "name": "Mortarboard",
   "version": "1.0.0",
-  "description": "Simple Express Chat app",
+  "description": "Student learning app",
   "main": "app.js",
   "dependencies": {
     "errorhandler": "^1.5.0",
@@ -15,17 +15,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "node-express-chat"
+    "url": "Mortarboard"
   },
   "keywords": [
     "JavaScript",
     "Node.js",
     "Express.js",
     "web",
-    "chat",
     "app",
     "jQuery"
   ],
-  "author": "Denise Case",
-  "license": "MIT"
+  "author": "Randall Porter",
+  "license": ""
 }
