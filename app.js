@@ -30,9 +30,6 @@ const port = 3003
 const host = '0.0.0.0'
 const env = app.get('env')
 
-const routes = require('./routes/index.js')
-app.use('/', routes)  // load routing to handle all requests
-
 // on a connection event, act as follows (socket interacts with client)
 io.on('connection', (socket) => {
   socket.on('chatMessage', (from, msg) => {  // on getting a chatMessage event
