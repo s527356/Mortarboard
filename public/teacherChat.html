@@ -6,7 +6,7 @@
   <link rel='stylesheet' href='/public/chat.css' />
   <script src="/socket.io/socket.io.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="/public/chat.js"></script>
+  <script src="/public/teacherChat.js"></script>
 </head>
 
 <body>
@@ -14,11 +14,11 @@
   <ul id="messages"></ul>
 
   <div id="notifyUser"></div>
-
+  
   <form id="chatform" onsubmit="return(false)">
     <input type="hidden" id="user" value="" />
-    <input id="m" autocomplete="off" placeholder="Type your message here.." /><input
-      type="submit" id="button" value="Send" />
+    <!--<input id="m" autocomplete="off" placeholder="Type your message here.." /><input
+      type="submit" id="button" value="Send" />-->
   </form>
 
 </body>
